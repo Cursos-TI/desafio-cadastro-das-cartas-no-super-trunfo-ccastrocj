@@ -34,7 +34,7 @@ int main() {
     printf("\n");
     printf("Cadastro da primeira carta:\n");
 
-    printf("Estado (A a H): ");
+    printf("Estado (A a H): ");                 
     scanf(" %c", &estado1);
     printf("Código da carta (ex: A01): ");
     scanf("%s", codigo1);
@@ -54,7 +54,7 @@ int main() {
     printf("Cadastro da segunda carta:\n");
 
     printf("Estado (A a H): ");
-    scanf(" %c", &estado2);
+    scanf(" %c", &estado2);                                     //Espaço após o as aspas é para não dar erro ao rodar o programa.
     printf("Código da carta (ex: A01): ");
     scanf("%s", codigo2);
     printf("Nome da cidade: ");
@@ -75,14 +75,14 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     printf("Cidade 1\n");
-    printf("Estado: %c\n", estado1);
+    printf("Estado: %c\n", estado1);                             //Espaço após o as aspas é para não dar erro ao rodar o programa.
     printf("Código da carta: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
     printf("Área em km²: %.2f km²\n", area1);
     printf("PIB: %.2f\n", pib1);
     printf("Número de Pontos Turisticos: %d\n", pontos_turisticos1);
-    printf("\n");
+    printf("\n");       //Coloquei esses espaços para ficar com uma visibilidade melhor ao rodar o programa.
     printf("Cidade 2\n");
     printf("Estado: %c\n", estado2);
     printf("Código da carta: %s\n", codigo2);
